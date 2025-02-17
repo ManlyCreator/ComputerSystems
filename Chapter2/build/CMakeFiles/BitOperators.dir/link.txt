@@ -1,0 +1,1 @@
+/usr/bin/cc -m64 -g CMakeFiles/BitOperators.dir/bitOperators.c.o -o BitOperators 

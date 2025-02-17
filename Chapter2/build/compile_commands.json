@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/rami/CProjects/Systems/Chapter2/build",
+  "command": "/usr/bin/cc   -m64 -g -o CMakeFiles/WordSizes.dir/wordSizes.c.o -c /home/rami/CProjects/Systems/Chapter2/wordSizes.c",
+  "file": "/home/rami/CProjects/Systems/Chapter2/wordSizes.c",
+  "output": "CMakeFiles/WordSizes.dir/wordSizes.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/Systems/Chapter2/build",
+  "command": "/usr/bin/cc   -m64 -g -o CMakeFiles/ByteRep.dir/byteRep.c.o -c /home/rami/CProjects/Systems/Chapter2/byteRep.c",
+  "file": "/home/rami/CProjects/Systems/Chapter2/byteRep.c",
+  "output": "CMakeFiles/ByteRep.dir/byteRep.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/Systems/Chapter2/build",
+  "command": "/usr/bin/cc   -m64 -g -o CMakeFiles/BitOperators.dir/bitOperators.c.o -c /home/rami/CProjects/Systems/Chapter2/bitOperators.c",
+  "file": "/home/rami/CProjects/Systems/Chapter2/bitOperators.c",
+  "output": "CMakeFiles/BitOperators.dir/bitOperators.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/Systems/Chapter2/build",
+  "command": "/usr/bin/cc   -m64 -g -o CMakeFiles/ReverseArray.dir/reverseArray.c.o -c /home/rami/CProjects/Systems/Chapter2/reverseArray.c",
+  "file": "/home/rami/CProjects/Systems/Chapter2/reverseArray.c",
+  "output": "CMakeFiles/ReverseArray.dir/reverseArray.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/Systems/Chapter2/build",
+  "command": "/usr/bin/cc   -m64 -g -o CMakeFiles/BitMasking.dir/bitMasking.c.o -c /home/rami/CProjects/Systems/Chapter2/bitMasking.c",
+  "file": "/home/rami/CProjects/Systems/Chapter2/bitMasking.c",
+  "output": "CMakeFiles/BitMasking.dir/bitMasking.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/Systems/Chapter2/build",
+  "command": "/usr/bin/cc   -m64 -g -o CMakeFiles/LogicalEquals.dir/logicalEquals.c.o -c /home/rami/CProjects/Systems/Chapter2/logicalEquals.c",
+  "file": "/home/rami/CProjects/Systems/Chapter2/logicalEquals.c",
+  "output": "CMakeFiles/LogicalEquals.dir/logicalEquals.c.o"
+}
+]
