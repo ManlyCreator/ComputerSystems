@@ -3,7 +3,6 @@
 
 void swap(int *x, int *y);
 
-
 int main(void) {
   char *str = "Hello";
   unsigned char a = 0b01001110;

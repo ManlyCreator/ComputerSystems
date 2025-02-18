@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Chapter2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BitMasking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BitMasking-Debug-e6d39e35edab3acb2c84.json",
+					"name" : "BitMasking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BitOperators::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BitOperators-Debug-33134638810eb6f12b17.json",
+					"name" : "BitOperators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ByteRep::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ByteRep-Debug-564d58fb0de13a952fc4.json",
+					"name" : "ByteRep",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Integers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Integers-Debug-a73612b37126c781ea23.json",
+					"name" : "Integers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LogicalEquals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LogicalEquals-Debug-3e9d59c0d25f83650d08.json",
+					"name" : "LogicalEquals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReverseArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReverseArray-Debug-679d086ba4adc6bbb4db.json",
+					"name" : "ReverseArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WordSizes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WordSizes-Debug-3919f72e982fdd0d98fd.json",
+					"name" : "WordSizes",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rami/CProjects/Systems/Chapter2/build",
+		"source" : "/home/rami/CProjects/Systems/Chapter2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

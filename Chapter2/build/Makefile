@@ -194,6 +194,19 @@ LogicalEquals/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogicalEquals.dir/build.make CMakeFiles/LogicalEquals.dir/build
 .PHONY : LogicalEquals/fast
 
+#=============================================================================
+# Target rules for targets named Integers
+
+# Build rule for target.
+Integers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Integers
+.PHONY : Integers
+
+# fast build rule for target.
+Integers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integers.dir/build.make CMakeFiles/Integers.dir/build
+.PHONY : Integers/fast
+
 bitMasking.o: bitMasking.c.o
 .PHONY : bitMasking.o
 
@@ -265,6 +278,30 @@ byteRep.s: byteRep.c.s
 byteRep.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ByteRep.dir/build.make CMakeFiles/ByteRep.dir/byteRep.c.s
 .PHONY : byteRep.c.s
+
+integers.o: integers.c.o
+.PHONY : integers.o
+
+# target to build an object file
+integers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integers.dir/build.make CMakeFiles/Integers.dir/integers.c.o
+.PHONY : integers.c.o
+
+integers.i: integers.c.i
+.PHONY : integers.i
+
+# target to preprocess a source file
+integers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integers.dir/build.make CMakeFiles/Integers.dir/integers.c.i
+.PHONY : integers.c.i
+
+integers.s: integers.c.s
+.PHONY : integers.s
+
+# target to generate assembly for a file
+integers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integers.dir/build.make CMakeFiles/Integers.dir/integers.c.s
+.PHONY : integers.c.s
 
 logicalEquals.o: logicalEquals.c.o
 .PHONY : logicalEquals.o
@@ -349,6 +386,7 @@ help:
 	@echo "... BitMasking"
 	@echo "... BitOperators"
 	@echo "... ByteRep"
+	@echo "... Integers"
 	@echo "... LogicalEquals"
 	@echo "... ReverseArray"
 	@echo "... WordSizes"
@@ -361,6 +399,9 @@ help:
 	@echo "... byteRep.o"
 	@echo "... byteRep.i"
 	@echo "... byteRep.s"
+	@echo "... integers.o"
+	@echo "... integers.i"
+	@echo "... integers.s"
 	@echo "... logicalEquals.o"
 	@echo "... logicalEquals.i"
 	@echo "... logicalEquals.s"

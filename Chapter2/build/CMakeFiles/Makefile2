@@ -69,6 +69,7 @@ all: CMakeFiles/BitOperators.dir/all
 all: CMakeFiles/ReverseArray.dir/all
 all: CMakeFiles/BitMasking.dir/all
 all: CMakeFiles/LogicalEquals.dir/all
+all: CMakeFiles/Integers.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -82,6 +83,7 @@ clean: CMakeFiles/BitOperators.dir/clean
 clean: CMakeFiles/ReverseArray.dir/clean
 clean: CMakeFiles/BitMasking.dir/clean
 clean: CMakeFiles/LogicalEquals.dir/clean
+clean: CMakeFiles/Integers.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -91,7 +93,7 @@ clean: CMakeFiles/LogicalEquals.dir/clean
 CMakeFiles/WordSizes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordSizes.dir/build.make CMakeFiles/WordSizes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordSizes.dir/build.make CMakeFiles/WordSizes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/Systems/Chapter2/build/CMakeFiles --progress-num=11,12 "Built target WordSizes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/Systems/Chapter2/build/CMakeFiles --progress-num=13,14 "Built target WordSizes"
 .PHONY : CMakeFiles/WordSizes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +171,7 @@ CMakeFiles/BitOperators.dir/clean:
 CMakeFiles/ReverseArray.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseArray.dir/build.make CMakeFiles/ReverseArray.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseArray.dir/build.make CMakeFiles/ReverseArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/Systems/Chapter2/build/CMakeFiles --progress-num=9,10 "Built target ReverseArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/Systems/Chapter2/build/CMakeFiles --progress-num=11,12 "Built target ReverseArray"
 .PHONY : CMakeFiles/ReverseArray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +223,7 @@ CMakeFiles/BitMasking.dir/clean:
 CMakeFiles/LogicalEquals.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogicalEquals.dir/build.make CMakeFiles/LogicalEquals.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogicalEquals.dir/build.make CMakeFiles/LogicalEquals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/Systems/Chapter2/build/CMakeFiles --progress-num=7,8 "Built target LogicalEquals"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/Systems/Chapter2/build/CMakeFiles --progress-num=9,10 "Built target LogicalEquals"
 .PHONY : CMakeFiles/LogicalEquals.dir/all
 
 # Build rule for subdir invocation for target.
@@ -239,6 +241,32 @@ LogicalEquals: CMakeFiles/LogicalEquals.dir/rule
 CMakeFiles/LogicalEquals.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LogicalEquals.dir/build.make CMakeFiles/LogicalEquals.dir/clean
 .PHONY : CMakeFiles/LogicalEquals.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Integers.dir
+
+# All Build rule for target.
+CMakeFiles/Integers.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integers.dir/build.make CMakeFiles/Integers.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integers.dir/build.make CMakeFiles/Integers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/rami/CProjects/Systems/Chapter2/build/CMakeFiles --progress-num=7,8 "Built target Integers"
+.PHONY : CMakeFiles/Integers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Integers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/Systems/Chapter2/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Integers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rami/CProjects/Systems/Chapter2/build/CMakeFiles 0
+.PHONY : CMakeFiles/Integers.dir/rule
+
+# Convenience name for target.
+Integers: CMakeFiles/Integers.dir/rule
+.PHONY : Integers
+
+# clean rule for target.
+CMakeFiles/Integers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Integers.dir/build.make CMakeFiles/Integers.dir/clean
+.PHONY : CMakeFiles/Integers.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

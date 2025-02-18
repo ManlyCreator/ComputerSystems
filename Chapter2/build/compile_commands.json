@@ -34,5 +34,11 @@
   "command": "/usr/bin/cc   -m64 -g -o CMakeFiles/LogicalEquals.dir/logicalEquals.c.o -c /home/rami/CProjects/Systems/Chapter2/logicalEquals.c",
   "file": "/home/rami/CProjects/Systems/Chapter2/logicalEquals.c",
   "output": "CMakeFiles/LogicalEquals.dir/logicalEquals.c.o"
+},
+{
+  "directory": "/home/rami/CProjects/Systems/Chapter2/build",
+  "command": "/usr/bin/cc   -m64 -g -o CMakeFiles/Integers.dir/integers.c.o -c /home/rami/CProjects/Systems/Chapter2/integers.c",
+  "file": "/home/rami/CProjects/Systems/Chapter2/integers.c",
+  "output": "CMakeFiles/Integers.dir/integers.c.o"
 }
 ]
